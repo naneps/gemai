@@ -1,0 +1,27 @@
+name: mvvm_getx_pattern
+version: 0.1.0
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies: 
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  google_generative_ai: ^0.4.0
+  flutter_markdown: ^0.7.1
+  image_picker: ^1.1.1
+
+dev_dependencies: 
+  flutter_lints: ^3.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/lang/
+
